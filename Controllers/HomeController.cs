@@ -15,7 +15,6 @@ namespace Availibility.Controllers
             return View();
         }
 
-
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -23,8 +22,7 @@ namespace Availibility.Controllers
             return View();
         }
 
-
-        public IActionResult About2()
+        public IActionResult Appointments()
         {
             ViewData["Message"] = "Your application description page.";
 

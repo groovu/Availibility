@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Availibility.Models
 {
-    public partial class Model
+    public partial class Appointment
     {
         public int Id { get; set; }
         public string Name { get; set; }

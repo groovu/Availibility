@@ -7,7 +7,6 @@ C:\Users\T\source\repos\Availibility\bin\Debug\netcoreapp2.1\Availibility.dll
 C:\Users\T\source\repos\Availibility\bin\Debug\netcoreapp2.1\Availibility.pdb
 C:\Users\T\source\repos\Availibility\bin\Debug\netcoreapp2.1\Availibility.Views.dll
 C:\Users\T\source\repos\Availibility\bin\Debug\netcoreapp2.1\Availibility.Views.pdb
-C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.csprojAssemblyReference.cache
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.AssemblyInfoInputs.cache
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.AssemblyInfo.cs
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.csproj.CoreCompileInputs.cache
@@ -33,4 +32,9 @@ C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.dll
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.pdb
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.genruntimeconfig.cache
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.csproj.CopyComplete
-C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Home\About2.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Availibility.csprojAssemblyReference.cache
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Create.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Delete.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Details.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Edit.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Index.cshtml.g.cs

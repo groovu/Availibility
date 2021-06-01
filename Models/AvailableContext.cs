@@ -15,7 +15,7 @@ namespace Availibility.Models
         {
         }
 
-        public virtual DbSet<Model> Model { get; set; }
+        public virtual DbSet<Appointment> Appointment { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,10 +28,8 @@ namespace Availibility.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Model>(entity =>
+            modelBuilder.Entity<Appointment>(entity =>
             {
-                entity.ToTable("model");
-
                 entity.Property(e => e.Id)
                     .HasColumnName("ID")
                     .ValueGeneratedNever();
