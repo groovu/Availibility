@@ -62,7 +62,7 @@ using Availibility.Models;
 #line default
 #line hidden
             BeginContext(43, 245, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30bc543caef9429fb4b78eb045caa419", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01c02241ab454d709c09a75f75e345c5", async() => {
                 BeginContext(49, 232, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Hello Bulma!</title>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css\">\r\n");
                 EndContext();
@@ -82,7 +82,7 @@ using Availibility.Models;
             WriteLiteral("\r\n<h2>Admin</h2>\r\n\r\n");
             EndContext();
             BeginContext(308, 505, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d62b934917304176bd416333e09b13d7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f181601d844114bbde2d598da21c10", async() => {
                 BeginContext(326, 480, true);
                 WriteLiteral(@"
     <div class=""field"">
