@@ -5,14 +5,26 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Availibility.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Availibility.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly AvailibilityContext _context;
+
+        public HomeController(AvailibilityContext context)
         {
-            return View();
+            _context = context;
+        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Appointment.ToListAsync());
         }
 
         public IActionResult About()
