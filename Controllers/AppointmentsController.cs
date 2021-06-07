@@ -56,6 +56,7 @@ namespace Availibility.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Time,Location,Notes")] Appointment appointment)
         {
+            Console.WriteLine("Print");
             if (ModelState.IsValid)
             {
                 _context.Add(appointment);
