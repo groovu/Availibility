@@ -12,7 +12,7 @@ namespace Availibility.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly AvailibilityContext _context;
+        public AvailibilityContext _context;
 
         public HomeController(AvailibilityContext context)
         {
@@ -24,6 +24,24 @@ namespace Availibility.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            ViewBag.Total = 1;
+            List<Appointment> t0 = new List<Appointment>();
+            List<Appointment> t1 = new List<Appointment>();
+            List<Appointment> t2 = new List<Appointment>();
+            List<Appointment> t3 = new List<Appointment>();
+            List<Appointment> t4 = new List<Appointment>();
+            List<Appointment> t5 = new List<Appointment>();
+            List<List<Appointment>> days = new List<List<Appointment>>() {t0, t1, t2, t3, t4, t5 };
+            foreach (var i in _context.Appointment)
+            {
+                var delta = (i.Time.Date - DateTime.Now.Date).TotalDays;
+                if (((int)delta < 0) || ((int)delta > 5)) {
+                    continue;
+                }
+                days[(int)delta].Add(i);
+            }
+            ViewBag.Upcoming = days;
+            //now need to sort each list so it displays properly.
             return View(await _context.Appointment.ToListAsync());
         }
 

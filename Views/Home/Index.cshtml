@@ -11,21 +11,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Hello</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 </head>
 <body>
     <section class="section">
-        <div class="container">
-            <h1 class="title">
-                Hello World
-            </h1>
-            <p class="subtitle">
-                ʰᵉˡˡᵒ ʷᵒʳˡᵈ
-            </p>
-        </div>
         <br />
         Today's Date : @DateTime.Now
+        <label>View Bag: </label> @ViewBag.Total
+
+        @ViewBag.Upcoming[2][0].Name
+
 
         <h1 class="title">Upcoming Events</h1>
         <table class="table">
@@ -35,11 +31,10 @@
 
                     if (item.Time > DateTime.Now)
                     {
-                <td>
-                    @Html.DisplayFor(modelItem => item)
-                    <br />
-                    @Html.Display("break")
-                </td>
+                        @(item.Time.Date - DateTime.Now.Date)
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
                     }
 
                 }
