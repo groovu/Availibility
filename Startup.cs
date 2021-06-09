@@ -32,7 +32,6 @@ namespace Availibility
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<AvailibilityContext>(options =>
@@ -50,8 +49,10 @@ namespace Availibility
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            
             app.UseStaticFiles();
+            app.UseAuthentication();
+            app.UseMvc();
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>

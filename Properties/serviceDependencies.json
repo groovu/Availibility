@@ -3,6 +3,10 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "AvailibilityContext"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "AuthDbContextConnection"
     }
   }
 }

@@ -63,7 +63,7 @@ using Availibility.Models;
             WriteLiteral("\r\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css\">\r\n<!DOCTYPE html>\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<html>\r\n");
             EndContext();
             BeginContext(288, 238, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92f19ca02d2b4cdfb16c6ab5a3c9ba99", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b51c33b2818e444fbabd95b56bceb60a", async() => {
                 BeginContext(294, 225, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Hello</title>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css\">\r\n");
                 EndContext();
@@ -83,7 +83,7 @@ using Availibility.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(528, 1205, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f56e588f534b495da9c305d9389da676", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71394a31214348a884815c158708b097", async() => {
                 BeginContext(534, 71, true);
                 WriteLiteral("\r\n\r\n    <h1 class=\"title\">Upcoming Events</h1>\r\n        Today\'s Date : ");
                 EndContext();

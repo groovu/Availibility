@@ -39,3 +39,10 @@ C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appoint
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Appointments\Index.cshtml.g.cs
 C:\Users\T\source\repos\Availibility\bin\Debug\netcoreapp2.1\package-lock.json
 C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Home\Admin.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\T\source\repos\Availibility\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
