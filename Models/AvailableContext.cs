@@ -7,14 +7,15 @@ namespace Availibility.Models
     public partial class AvailableContext : DbContext
     {
         public AvailableContext()
-        {
+        { 
         }
 
         public AvailableContext(DbContextOptions<AvailableContext> options)
             : base(options)
         {
-        }
 
+        }
+        public bool ShowHiddenLinks { get; set; }
         public virtual DbSet<Appointment> Appointment { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -17,39 +17,46 @@
 <body>
 
     <h1 class="title">Upcoming Events</h1>
-        Today's Date : @DateTime.Now
-        <br />
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Day</th>
-                    <th>Name</th>
-                    <th>Time</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            @for (int i = 0; i < ViewBag.Upcoming.Count; i += 1)
+    Today's Date : @DateTime.Now
+    <br />
+    <p>
+        <a asp-controller="Appointments" asp-action="Create">Schedule an meeting</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        @for (int i = 0; i < ViewBag.Upcoming.Count; i += 1)
+        {
+            <tr><td>Day @i </td></tr>
+            <tbody>
+                @for (int j = 0; j < ViewBag.Upcoming[i].Count; j += 1)
+                {
+                    <tr>
+                        <td></td>
+                        <td>
+                            @ViewBag.Upcoming[i][j].Name
+                        </td>
+                        <td>
+                            @ViewBag.Upcoming[i][j].Time
+                        </td>
+                        <td>
+                            @ViewBag.Upcoming[i][j].Location
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        }
+    </table>
+    @if (ViewBag.Admin)
             {
-                <tr><td>Day @i </td></tr>
-                <tbody>
-                    @for (int j = 0; j < ViewBag.Upcoming[i].Count; j += 1)
-                    {
-                        <tr>
-                            <td></td>
-                            <td>
-                                @ViewBag.Upcoming[i][j].Name
-                            </td>
-                            <td>
-                                @ViewBag.Upcoming[i][j].Time
-                            </td>
-                            <td>
-                                @ViewBag.Upcoming[i][j].Location
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            }
-        </table>
+            <a href="#">Some link to be hidden</a>
+            } 
 </body>
 </html>
 

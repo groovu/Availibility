@@ -24,6 +24,11 @@ namespace Availibility.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            ViewBag.Admin = false;
+            if (User.Identity.IsAuthenticated)
+            {
+                ViewBag.Admin = true;
+            }
             ViewBag.Total = 1;
             List<Appointment> t0 = new List<Appointment>();
             List<Appointment> t1 = new List<Appointment>();
